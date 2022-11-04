@@ -1,11 +1,10 @@
-name: PM-PluginTemplate
-main: space\yurisi\pluginname
+name: DiscordToServerMessage
+main: space\yurisi\DiscordToServerMessage
 author: yurisi
 # depend:
 #   - EconomyAPI
 version: 1.0.0
 api: 4.0.0
-# permissions:
-#   space.yurisi.pluginname.example:
-#     default: op
-#     description: 詳細
+permissions:
+  space.yurisi.DiscordToServerMessage.dtsm:
+    default: op

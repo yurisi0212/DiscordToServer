@@ -1,17 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace space\yurisi\pluginname;
+namespace space\yurisi\DiscordToServerMessage;
 
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
 
     protected function onEnable(): void {
-
-    }
-
-    protected function onDisable(): void {
-
+        $this->getServer()->getCommandMap()->register("DiscordToServerMessage", new dtsmCommand());
     }
 }
