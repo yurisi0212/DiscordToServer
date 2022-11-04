@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+namespace space\yurisi\DiscordToServerMessage\Command;
+
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\console\ConsoleCommandSender;
