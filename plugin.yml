@@ -1,5 +1,5 @@
 name: DiscordToServerMessage
-main: space\yurisi\DiscordToServerMessage
+main: space\yurisi\DiscordToServerMessage\Main
 author: yurisi
 # depend:
 #   - EconomyAPI
