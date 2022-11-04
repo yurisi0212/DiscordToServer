@@ -17,7 +17,7 @@ class dtsmCommand extends Command {
 
     public function execute(CommandSender $sender, string $commandLabel, array $args) {
         if(!$sender instanceof ConsoleCommandSender) return false;
-        if(!(isset($args[0]) || isset($args[1]))) return false;
+        if(!isset($args[0]) or !isset($args[1])) return false;
 
         Server::getInstance()->broadcastMessage("§a[Discord]§f{$args[0]}§l§f: §r{$args[1]}");
         return true;
